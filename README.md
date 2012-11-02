@@ -11,7 +11,7 @@ To build you must install XCode and the XCode developer tools, then:
 $ git clone https://github.com/dbridges/cocoa-tlassemble.git
 $ cd cocoa-tlassemble
 $ make
-$ sudo cp tlassemble /usr/local/bin/
+$ sudo cp tlassemble /usr/local/bin/ # or your own local bin directory
 ```
 
 ###Usage
