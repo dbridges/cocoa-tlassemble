@@ -1,5 +1,5 @@
 # tlassemble
-tlassemble is a simple command line utility that combines a sequence of images into a movie. A GUI version, Time Lapse Assembler is available [here](http://www.dayofthenewdan.com/projects/time-lapse-assembler-1)
+tlassemble is a simple command line utility that combines a sequence of images into a movie. A GUI version, [Time Lapse Assembler](http://www.dayofthenewdan.com/projects/time-lapse-assembler-1), is also available for download.
 
 If you find this software useful, please consider making a small donation to fund future development.
 [Donate now](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9465YBPSUC9YL)
@@ -37,5 +37,5 @@ $ tlassemble ./images time_lapse.mov -quiet yes
 ```
 
 ###License
-tlassemble can be distributed in accordance to the BSD New license. See the header in [tlassemble.m](https://github.com/dbridges/cocoa-tlassemble/blob/master/tlassemble.m) for full license terms.
+tlassemble can be distributed in accordance with the BSD New license. See the top of [tlassemble.m](https://github.com/dbridges/cocoa-tlassemble/blob/master/tlassemble.m) for full license terms.
 
