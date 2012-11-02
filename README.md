@@ -1,6 +1,12 @@
 # tlassemble
+tlassemble is a simple command line utility that combines a sequence of images into a movie. A GUI version, Time Lapse Assembler is available [here](http://www.dayofthenewdan.com/projects/time-lapse-assembler-1)
+
+If you find this software useful, please consider making a small donation to fund future development.
+[Donate now](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9465YBPSUC9YL)
 
 ###Building and Installation
+To build you must install XCode and the XCode developer tools.
+
 ```bash
 $ git clone https://github.com/dbridges/cocoa-tlassemble.git
 $ cd cocoa-tlassemble
@@ -9,7 +15,7 @@ $ sudo cp tlassemble /usr/local/bin/
 ```
 
 ###Usage
-```
+```bash
 $ tlassemble INPUTDIRECTORY OUTPUTFILENAME [OPTIONS]
 ```
 
@@ -29,4 +35,7 @@ $ tlassemble ./images time_lapse.mov -quiet yes
 -quiet: Set to 'yes' to suppress output during encoding.
 -reverse: Set to 'yes' to reverse the order that images are displayed in the movie.
 ```
+
+###License
+tlassemble can be distributed in accordance to the BSD New license. See the header in [tlassemble.m](https://github.com/dbridges/cocoa-tlassemble/blob/master/tlassemble.m) for full license terms.
 
