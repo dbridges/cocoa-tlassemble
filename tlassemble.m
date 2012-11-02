@@ -37,7 +37,6 @@
 #import <AppKit/AppKit.h>
 #import <QTKit/QTKit.h>
 
-
 void usage() {
     fprintf(stderr, "%s","Usage: tlassemble INPUTDIRECTORY OUTPUTFILENAME [OPTIONS]\n"
             "Try 'tlassemble --help' for more information.\n");
@@ -246,7 +245,7 @@ int main(int argc, const char *argv[]) {
     }
     [movie setAttribute:[NSNumber numberWithBool:YES] forKey:QTMovieEditableAttribute];
 
-    long timeScale = 1000;
+    long timeScale = 100000;
     long long timeValue = (long long) ceil((double) timeScale / fps);
     QTTime duration = QTMakeTime(timeValue, timeScale);
     
