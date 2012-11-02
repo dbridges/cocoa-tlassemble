@@ -203,7 +203,7 @@ int main(int argc, const char *argv[]) {
     NSDictionary *imageAttributes = [NSDictionary dictionaryWithObjectsAndKeys: 
                                          [codec objectForKey:codecSpec], QTAddImageCodecType,
 										 [quality objectForKey:qualitySpec], QTAddImageCodecQuality,
-										 [NSNumber numberWithLong:1000], QTTrackTimeScaleAttribute,
+										 [NSNumber numberWithLong:100000], QTTrackTimeScaleAttribute,
 										 nil];
 
     DLOG(@"%@",imageAttributes);
