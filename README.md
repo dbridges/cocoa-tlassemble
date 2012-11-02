@@ -9,7 +9,9 @@ $ sudo cp tlassemble /usr/local/bin/
 ```
 
 ###Usage
-`$ tlassemble INPUTDIRECTORY OUTPUTFILENAME [OPTIONS]`
+```
+$ tlassemble INPUTDIRECTORY OUTPUTFILENAME [OPTIONS]
+```
 
 ###Examples
 ```bash
