@@ -1,5 +1,5 @@
 # tlassemble
-tlassemble is a simple command line utility that combines a sequence of images into a movie. A GUI version, [Time Lapse Assembler](http://www.dayofthenewdan.com/projects/time-lapse-assembler-1), is also available for download.
+tlassemble is a simple Mac OS X command line utility that combines a sequence of images into a movie. A GUI version, [Time Lapse Assembler](http://www.dayofthenewdan.com/projects/time-lapse-assembler-1), is also available for download.
 
 If you find this software useful, please consider making a small donation to fund future development.
 [Donate now](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9465YBPSUC9YL)
