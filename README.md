@@ -5,7 +5,7 @@ If you find this software useful, please consider making a small donation to fun
 [Donate now](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9465YBPSUC9YL)
 
 ###Building and Installation
-To build you must install XCode and the XCode developer tools.
+To build you must install XCode and the XCode developer tools, then:
 
 ```bash
 $ git clone https://github.com/dbridges/cocoa-tlassemble.git
