@@ -222,6 +222,7 @@ int main(int argc, const char *argv[]) {
     
     for (NSString *file in imageFiles) {
         if ([[file pathExtension] caseInsensitiveCompare:@"jpeg"] == NSOrderedSame ||
+	    [[file pathExtension] caseInsensitiveCompare:@"png"] == NSOrderedSame ||
             [[file pathExtension] caseInsensitiveCompare:@"jpg"] == NSOrderedSame) {
             imageCount++;
         }
@@ -259,6 +260,7 @@ int main(int argc, const char *argv[]) {
     for (NSString *file in imageFiles) {
         fullFilename = [inputPath stringByAppendingPathComponent:file];
         if ([[fullFilename pathExtension] caseInsensitiveCompare:@"jpeg"] == NSOrderedSame ||
+	    [[fullFilename pathExtension] caseInsensitiveCompare:@"png"] == NSOrderedSame ||
             [[fullFilename pathExtension] caseInsensitiveCompare:@"jpg"] == NSOrderedSame) {
             NSAutoreleasePool *innerPool = [[NSAutoreleasePool alloc] init];
             image = [[NSImage alloc] initWithContentsOfFile:fullFilename];
